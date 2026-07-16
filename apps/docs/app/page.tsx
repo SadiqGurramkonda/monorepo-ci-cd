@@ -6,11 +6,6 @@ import styles from "./page.module.css";
 import { Card } from "@repo/ui/card";
 import { useState } from "react";
 
-type Props = Omit<ImageProps, "src"> & {
-  srcLight: string;
-  srcDark: string;
-};
-
 
 export default function Home() {
   const [num1,setNum1] = useState<number>(0);
