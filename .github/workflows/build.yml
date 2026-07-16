@@ -15,7 +15,7 @@ jobs:
           node-version: '24'
       
       - name: Install Dependencies
-        run: npm install
+        run: pnpm install
         
       - name: Run Build
-        run: npm run build
+        run: pnpm run build
