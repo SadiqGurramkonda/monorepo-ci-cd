@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <h3>calculate sum</h3>
         <div>
-          the sum is: {num1+num2}
+          the sum is here: {num1+num2}
         </div>
         <input onChange={(e)=>{setNum1(Number(e.target.value) )}} type="number"></input>
         <input onChange={(e)=>{setNum2(Number(e.target.value) )}} type="number"></input>
