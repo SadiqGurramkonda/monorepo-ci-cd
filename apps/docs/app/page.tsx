@@ -14,7 +14,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h3>calculate sum</h3>
-        <div>the sum is here: {num1 + num2}</div>
+        <div>sum : {num1 + num2}</div>
         <input
           onChange={(e) => {
             setNum1(Number(e.target.value));
